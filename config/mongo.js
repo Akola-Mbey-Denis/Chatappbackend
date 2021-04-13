@@ -1,6 +1,6 @@
 const databaseConfiguration = require('./index');
-const CONNECTION_STRING=databaseConfiguration;
-const CONNECTION_URL= "mongodb+srv://denis:"+CONNECTION_STRING.DB_PASSWORD+"@cluster0.hjmrk.mongodb.net/"+CONNECTION_STRING.DB_NAME+"chat?retryWrites=true&w=majority";  
+ 
+const CONNECTION_URL= databaseConfiguration.DATA_BASE_URL; 
    
 const mongoose = require("mongoose");
 
