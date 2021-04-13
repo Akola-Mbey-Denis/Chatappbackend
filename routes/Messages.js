@@ -59,7 +59,7 @@ router.get("/messages/:id", async (req, res) => {
     res.status(status.INTERNAL_SERVER_ERROR).send({
       error: {
         code: "500",
-        message: "Some ",
+        message: "Something went wrong!",
       },
     });
   
