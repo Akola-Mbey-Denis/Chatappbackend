@@ -15,7 +15,7 @@ The  app was deployed on heroku  it has the following end points
  # messages model api endpoints
  -[create a message](https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/) using HTTPS POST request method and  with a specific message payload (sender_id,reciever_id,and the message)
 
- -[Get all messages](https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/ using the HTTPS GET request method,it returns  all messages in the database.
+ -[Get all messages](https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/) using the HTTPS GET request method,it returns  all messages in the database.
 
  -[Get messages specific to two users](https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/sender_id/receiver_id) using the HTTPS GET reuest method with specific sender and receiver ids.
 
