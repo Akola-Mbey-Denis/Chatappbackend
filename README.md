@@ -26,8 +26,7 @@ You can find a running version of the backend app at https://aqueous-taiga-66714
 
 Libraries used:
 
-- [socket.io](https://github.com/socketio/socket.io)
-- [jQuery](https://github.com/jquery/jquery)
+- [socket.io](https://github.com/socketio/socket.io) 
 - [express](https://github.com/expressjs/express)
 - [moongose](https://aqueous-taiga-66714.herokuapp.com)- 
 - [Moment.js](https://github.com/moment/moment)
