@@ -43,7 +43,7 @@ module.exports={
   var receiver  =_.pick(receiverData,['_id','username','email'])
 //  var receiver_formatted={'receiver_name':receiver.username,'receiver_id':receiver._id}
   return {'receiver_name':receiver.username,'receiver_id':receiver._id,'sender_name':
-sender.username,'sender_id':sender._id}
+sender.username,'sender_id':sender._id,createdAt:message.createdAt}
 
   },
   //get message by ID
