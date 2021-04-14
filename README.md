@@ -36,6 +36,8 @@ Libraries used:
 # Running application
 - Build the install docker and run the following commands:
 - docker build -t chatappbackend .
-- docker run -p 8007:8007 chatappbackend to run the application locally- 
+- docker run -p 8007:8007 chatappbackend to run the application locally.
+ 
 Thank you,
+
 Denis Mbey Akola
