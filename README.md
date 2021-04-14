@@ -4,22 +4,22 @@
 This is a nodejs chat app using socket.io and mongodb (Atlas) .
 The  app was deployed on heroku  it has the following end points
 # users model api endpoints
--[create a user](https://aqueous-taiga-66714.herokuapp.com/api/v1/users/) using pPOST HTTPS request method
+-[create a user](https://aqueous-taiga-66714.herokuapp.com/api/v1/users/) using POST HTTPS request method
 
 -[get a user](https://aqueous-taiga-66714.herokuapp.com/api/v1/users/:id) using GET HTTPs request method and a specified user ID 
 
 -[delete a user](https://aqueous-taiga-66714.herokuapp.com/api/v1/users/:id) specified the id of the user and use DELETE HTTPS request method
 
--[get all users] (https://aqueous-taiga-66714.herokuapp.com/api/v1/users/) using GET HTTPS request method
+-[get all users](https://aqueous-taiga-66714.herokuapp.com/api/v1/users/) using GET HTTPS request method
 
  # messages model api endpoints
- -[create a message] (https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/) using HTTPS POST request method and  with a specific message payload (sender_id,reciever_id,and the message)
+ -[create a message](https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/) using HTTPS POST request method and  with a specific message payload (sender_id,reciever_id,and the message)
 
- -[Get all messages] (https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/ using the HTTPS GET request method,it returns  all messages in the database.
+ -[Get all messages](https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/ using the HTTPS GET request method,it returns  all messages in the database.
 
- -[Get messages specific to two users] (https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/sender_id/receiver_id) using the HTTPS GET reuest method with specific sender and receiver ids.
+ -[Get messages specific to two users](https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/sender_id/receiver_id) using the HTTPS GET reuest method with specific sender and receiver ids.
 
- [Delete a message] (https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/message_id) using HTTPS DELETE method,it returns  deletes the specified message in the database. 
+ [Delete a message](https://aqueous-taiga-66714.herokuapp.com/api/v1/messages/message_id) using HTTPS DELETE method,it returns  deletes the specified message in the database. 
  
 
 You can find a running version of the backend app at https://aqueous-taiga-66714.herokuapp.com!
